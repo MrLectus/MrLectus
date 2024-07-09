@@ -19,13 +19,13 @@ const HomePage = () => {
   return (
     <section id="home" className="mt-24 p-10 bg-[#8e8e8e]/10">
       <div className="flex justify-center items-center">
-        <Image
-          src="/avatar.png"
-          alt="avatar"
-          width={600}
-          height={600}
-          className="my-10"
-        />
+        {/* <Image */}
+        {/*   src="/avatar.png" */}
+        {/*   alt="avatar" */}
+        {/*   width={600} */}
+        {/*   height={600} */}
+        {/*   className="my-10" */}
+        {/* /> */}
       </div>
       <div className="flex justify-center items-center">
         <div className="flex flex-col gap-4">

@@ -55,7 +55,7 @@ const Project = () => {
       </h3>
       <div className="flex flex-col w-fit justify-center items-center space-y-5 p-4 md:grid md:grid-cols-2 md:gap-x-4">
         {projects.map((project) => {
-          return <ProjectCard project={project} />;
+          return <ProjectCard project={project} key={project.title} />;
         })}
       </div>
     </section>
