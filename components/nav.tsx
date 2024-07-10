@@ -66,11 +66,13 @@ const NavBar = () => {
             <Link
               className="hover:underline md:hover:text-blue-400"
               href="#home"
+              onClick={setShowNav}
             >
               Home
             </Link>
             <Link
               className="hover:underline md:hover:text-blue-400"
+              onClick={setShowNav}
               href="#about"
             >
               About
@@ -78,12 +80,14 @@ const NavBar = () => {
             <Link
               className="hover:underline md:hover:text-blue-400"
               href="#projects"
+              onClick={setShowNav}
             >
               Projects
             </Link>
             <Link
               className="hover:underline md:hover:text-blue-400"
               href="#contacts"
+              onClick={setShowNav}
             >
               Contact
             </Link>
