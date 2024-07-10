@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="flex flex-row justify-around h-24 text-white  items-center bg-[#2d2e32]">
       <div>
-        <p className="text-xl">
+        <p className="md:text-xl">
           Copy &copy; {new Date().getUTCFullYear()} All rights reserved
         </p>
       </div>
