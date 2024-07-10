@@ -15,17 +15,22 @@ import {
   SVGTypeScript,
 } from "@/components/icons";
 import Link from "next/link";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 const HomePage = () => {
   return (
     <section id="home" className="mt-24 p-10 bg-[#8e8e8e]/10">
       <div className="flex justify-center items-center">
         {/* <Image */}
-        {/*   src="/avatar.png" */}
+        {/*   src="/id.jpg" */}
         {/*   alt="avatar" */}
         {/*   width={600} */}
         {/*   height={600} */}
         {/*   className="my-10" */}
         {/* /> */}
+        <Avatar className="w-56 h-56 my-4">
+          <AvatarImage src="/id.jpg" />
+          <AvatarFallback>CN</AvatarFallback>
+        </Avatar>
       </div>
       <div className="flex justify-center items-center">
         <div className="flex flex-col gap-4">

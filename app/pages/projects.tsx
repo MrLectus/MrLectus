@@ -46,7 +46,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
 const Project = () => {
   return (
     <section
-      id="projects "
+      id="projects"
       className="p-10 bg-[#8e8e8e]/10 w-full flex flex-col items-center justify-center space-y-5"
     >
       <h2 className="text-blue-400 text-center text-xl font-bold">Project</h2>
