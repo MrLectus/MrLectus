@@ -21,10 +21,7 @@ const Contact = () => {
       <div className="w-full flex flex-col justify-center items-center">
         <Card className="md:w-[700px] p-2 w-full">
           <CardContent className="p-2 w-full">
-            <form
-              action={formAction}
-              className="flex flex-col space-y-3 w-full"
-            >
+            <form action={formAction} className="flex flex-col gap-3  w-full">
               <Input
                 type="text"
                 placeholder="Enter your Full Name"
@@ -32,7 +29,7 @@ const Contact = () => {
               />
               <Input type="email" placeholder="Enter Your email" name="email" />
               <Textarea placeholder="Type your message here!" name="content" />
-              <SendButton className="flex space-x-2" />
+              <SendButton className="flex gap-2" />
             </form>
           </CardContent>
           <CardFooter>

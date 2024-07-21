@@ -41,7 +41,7 @@ const HomePage = () => {
             Hi, I am a Software developer experience in building and maintaining
             responsive, user friendly websites and applications.{" "}
           </p>
-          <div className="flex justify-center items-center space-x-5 m-4">
+          <div className="flex justify-center items-center gap-5 m-4">
             <Link
               target="_blank"
               href="https://www.linkedin.com/in/abdulwaheed-j-64561494"
@@ -55,23 +55,23 @@ const HomePage = () => {
         </div>
       </div>
       <div className="flex flex-col">
-        <div className="flex flex-col space-y-10">
+        <div className="flex flex-col gap-10">
           <h4 className="font-bold underline text-center text-xl md:text-2xl mt-4">
             Tech Stack
           </h4>
-          <div className="flex flex-col space-y-10 justify-center items-center">
-            <div className="flex space-x-5">
+          <div className="flex flex-col gap-10 justify-center items-center">
+            <div className="flex gap-5">
               <SVGHTML />
               <SVGCSS />
               <SVGTailwind />
               <SVGTypeScript />
             </div>
-            <div className="flex space-x-5">
+            <div className="flex gap-5">
               <SVGREACT />
               <SVGNext />
               <SVGAstro />
             </div>
-            <div className="flex space-x-5">
+            <div className="flex gap-5">
               <SVGNode />
               <SVGBash />
               <SVGGo />
