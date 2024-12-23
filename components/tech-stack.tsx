@@ -1,16 +1,10 @@
 import { motion } from "framer-motion";
 import {
-  SVGHTML,
-  SVGCSS,
   SVGTailwind,
   SVGTypeScript,
-  SVGREACT,
   SVGNext,
-  SVGAstro,
   SVGNode,
-  SVGBash,
-  SVGGo,
-  SVGRust,
+  SVGReact,
 } from "@/components/icons";
 
 const container = {
@@ -46,27 +40,17 @@ export const TechStack = () => {
         animate="show"
         className="grid grid-cols-2 md:grid-cols-4 gap-8"
       >
-        {[
-          SVGHTML,
-          SVGCSS,
-          SVGTailwind,
-          SVGTypeScript,
-          SVGREACT,
-          SVGNext,
-          SVGAstro,
-          SVGNode,
-          SVGBash,
-          SVGGo,
-          SVGRust,
-        ].map((Icon, index) => (
-          <motion.div
-            key={index}
-            variants={item}
-            className="flex justify-center items-center p-4 bg-white/50 rounded-xl hover:shadow-lg transition-shadow"
-          >
-            <Icon />
-          </motion.div>
-        ))}
+        {[SVGTailwind, SVGTypeScript, SVGNext, SVGNode, SVGReact].map(
+          (Icon, index) => (
+            <motion.div
+              key={index}
+              variants={item}
+              className="flex justify-center items-center p-4 bg-white/50 rounded-xl hover:shadow-lg transition-shadow"
+            >
+              <Icon />
+            </motion.div>
+          ),
+        )}
       </motion.div>
     </div>
   );
