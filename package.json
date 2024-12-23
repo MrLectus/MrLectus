@@ -13,6 +13,7 @@
     "@radix-ui/react-slot": "^1.1.1",
     "@radix-ui/react-toast": "^1.2.4",
     "@types/nprogress": "^0.2.3",
+    "babel-plugin-react-compiler": "19.0.0-beta-b2e8e9c-20241220",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^11.15.0",
