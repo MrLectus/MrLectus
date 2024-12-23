@@ -31,11 +31,13 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={inter.className}>
-        <NavigationProgress />
-        <Navbar />
-        <main>
-          <Suspense>{children}</Suspense>
-        </main>
+        <Suspense fallback={null}>
+          <NavigationProgress />
+          <Navbar />
+          <main>
+            <Suspense>{children}</Suspense>
+          </main>
+        </Suspense>
       </body>
     </html>
   );
