@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import { NavigationProgress } from "@/components/navigation-progress";
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,7 +33,9 @@ export default function RootLayout({
       <body className={inter.className}>
         <NavigationProgress />
         <Navbar />
-        <main>{children}</main>
+        <main>
+          <Suspense>{children}</Suspense>
+        </main>
       </body>
     </html>
   );
