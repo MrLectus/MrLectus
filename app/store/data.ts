@@ -27,15 +27,6 @@ export const projects = [
     github: "https://github.com/VesperQuartz/zk_secure/tree/main",
   },
   {
-    title: "Affnidi (OAuth)",
-    demo: "https://affinidi-bounty1.vercel.app/",
-    description:
-      "Affinidi is a decentralized identity platform that enables trusted and verifiable data exchange. This project is a simple implementation of the Affinidi OAUTH flow.",
-    image: "/affinidi.png",
-    tech: ["React.js", "TypeScript", "Tailwind CSS", "Affinidi"],
-    github: "https://github.com/mrlectus/affinidi-bounty1",
-  },
-  {
     title: "Movie Recommendation App",
     demo: "https://movie-recommended-app.vercel.app/",
     description: "A simple movie recommendation app that uses the TMDB API.",
