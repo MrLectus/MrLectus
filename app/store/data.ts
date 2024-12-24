@@ -1,10 +1,10 @@
 export const projects = [
   {
-    title: "NextFeed",
+    title: "NexFeed",
     demo: "https://nexfeed.vercel.app/",
     description:
       "NexFeed is built on the Arbitrum network, a layer-2 scaling solution for Ethereum that enhances transaction speed and reduces costs while maintaining the security and decentralization of the Ethereum blockchain. ",
-    image: "/NextFeed.png",
+    image: "/NexFeed.png",
     tech: ["Next.js", "TypeScript", "Arbitrum", "Solidity"],
     github: "https://github.com/VesperQuartz/nexfeed/tree/main",
   },
