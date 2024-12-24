@@ -1,11 +1,38 @@
 export const projects = [
   {
+    title: "NextFeed",
+    demo: "https://nexfeed.vercel.app/",
+    description:
+      "NexFeed is built on the Arbitrum network, a layer-2 scaling solution for Ethereum that enhances transaction speed and reduces costs while maintaining the security and decentralization of the Ethereum blockchain. ",
+    image: "/NextFeed.png",
+    tech: ["Next.js", "TypeScript", "Arbitrum", "Solidity"],
+    github: "https://github.com/VesperQuartz/nexfeed/tree/main",
+  },
+  {
+    title: "APTOS NFT Marketplace",
+    demo: "https://aptos-nft-marketplace-gamma.vercel.app/",
+    description:
+      "Building upon the foundational features of our initial NFT marketplace implementation, this enhanced version represents a significant evolution in digital asset trading on the Aptos blockchain.",
+    image: "/marketplace.png",
+    tech: ["Next.js", "TypeScript", "aptos", "move"],
+    github: "https://github.com/VesperQuartz/aptos_nft_marketplace/tree/main",
+  },
+  {
+    title: "Reddit Marketplace",
+    demo: "https://zk-secure.vercel.app/",
+    description:
+      "This marketplace is designed for people who want to sell digital goods, like design assets or e-books, while building on the reputation they've already earned on Reddit. ",
+    image: "/reddit.png",
+    tech: ["Next.js", "TypeScript", "zkPass", "Hono"],
+    github: "https://github.com/VesperQuartz/zk_secure/tree/main",
+  },
+  {
     title: "Affnidi (OAuth)",
     demo: "https://affinidi-bounty1.vercel.app/",
     description:
       "Affinidi is a decentralized identity platform that enables trusted and verifiable data exchange. This project is a simple implementation of the Affinidi OAUTH flow.",
     image: "/affinidi.png",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    tech: ["React.js", "TypeScript", "Tailwind CSS", "Affinidi"],
     github: "https://github.com/mrlectus/affinidi-bounty1",
   },
   {
@@ -13,7 +40,7 @@ export const projects = [
     demo: "https://movie-recommended-app.vercel.app/",
     description: "A simple movie recommendation app that uses the TMDB API.",
     image: "/movie.png",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    tech: ["Next.js", "Tailwind CSS"],
     github: "https://github.com/mrlectus/movie-recommended-app",
   },
   {
@@ -21,8 +48,8 @@ export const projects = [
     demo: "https://mrlectus.me",
     description:
       "My online portfolio. This website is built with Next.js and TailwindCSS.",
-    image: "/mrlectus.png",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    image: "/port.png",
+    tech: ["Next.js"],
     github: "",
   },
   {
